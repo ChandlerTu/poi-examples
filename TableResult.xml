@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tablestruct>
+<CalledTestRecord>
+<TypeList>
+<Type>40302</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalIm" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherIm" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TransMode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="AccessStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="AccessEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="AccessOffsetTime" FileFlag="0" Formula="( AccessEndTime - AccessStartTime ) / 1000" javaType="double"/>
+<Field FieldName="MsgNote" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ContentIntegrity" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="Matched" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="OtherRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</CalledTestRecord>
+<GameIPPing>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="varcha（36）"/>
+<Field FieldName="RecordID" FileFlag="0" Formula="" javaType="varcha（36）"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="GameName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Port" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DomainName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="PingPacketSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingTotalNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSuccessNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LostRate" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="AvgOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="MaxOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="MinOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="OffsetTimeJitter" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="Ttl" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</GameIPPing>
+<GameStageInfo>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="varcha（36）"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="RecordID" FileFlag="0" Formula="" javaType="varcha（36）"/>
+<Field FieldName="Stage" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Port" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DomainName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Protocol" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TcpDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PeakTcpDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RetransmissionNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TcpDPNum" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DPSize" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="GameName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</GameStageInfo>
+<P2PIpList>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Ip" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="StartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="SubServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ExpServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadSize" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</P2PIpList>
+<TestRecord>
+<TypeList>
+<Type>40000</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ForwardTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealTotalEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DealTotalSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealTotalEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DataFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalSelectNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealTotalEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealTotalOffsetTime" FileFlag="0" Formula="( DealTotalEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ForwardStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ForwardEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ForwardOffsetTime" FileFlag="0" Formula="( ForwardEndTime - ForwardStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstScreenStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstScreenEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstScreenOffsetTime" FileFlag="0" Formula="( FirstScreenEndTime - FirstScreenStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstScreenResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PageOffsetTime" FileFlag="0" Formula="( DealTotalEndTime - SetupConnectEndTime ) / 1000" javaType="double"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginUser" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="URLNAME" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResourcesFailedNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Url90PDateTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="Url90POffsettime" FileFlag="0" Formula="( Url90PDateTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="WebResources" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResourcesNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="BrowserType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Url90PFileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AvgOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OffsetTimeJitter" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RealPingNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSuccessNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="CmElementNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CtElementNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CuElementNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CmCacheNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CmLocalElementNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCacheNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ElementDnsAvg" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ElementReceiveAvg" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ElementAvgWait" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ElementAvgConnect" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ExpElementCount" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CmUrlNum" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="CtUrlNum" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="CuUrlNum" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="CmLocalNum" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="CmFailNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlNum" FileFlag="0" Formula="" javaType="long"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40002</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectOffsetTime" FileFlag="0" Formula="( ConnectEndTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DataFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginUser" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ContentIntegrity" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40100</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="PingServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="PingServerType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingPacketSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingTotalNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSuccessNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LostRate" FileFlag="0" Formula="( PingTotalNum - PingSuccessNum ) / PingTotalNum" javaType="double"/>
+<Field FieldName="AvgOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="MaxOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="MinOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="OffsetTimeJitter" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="Ttl" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginUser" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingProtocol" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="PingRecordFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="PingPacketSize / AvgOffsetTime" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DSCP" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40102</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Apn" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingProtocol" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingIP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="PingPort" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingPacketSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSendSpeed" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSendTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingTimeout" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TwowayDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="JitterRate" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LossPacketRate" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IsTraceRoute" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="PingTotalNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSuccessNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40201</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FtpServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="FtpFileName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="FtpFileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FtpStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FtpEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FtpOffsetTime" FileFlag="0" Formula="( FtpEndTime - FtpStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FtpSpeed" FileFlag="0" Formula="1000 * FtpFileSize / ( FtpEndTime - FtpStartTime )" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SeverMode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DataMode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginOffsetTime" FileFlag="0" Formula="( LoginEndTime - LoginStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ContentIntegrity" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ThreadNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40202</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FtpServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="FtpFileName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="FtpFileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FtpStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FtpEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FtpOffsetTime" FileFlag="0" Formula="( FtpEndTime - FtpStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FtpSpeed" FileFlag="0" Formula="1000 * FtpFileSize / ( FtpEndTime - FtpStartTime )" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SeverMode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DataMode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginOffsetTime" FileFlag="0" Formula="( LoginEndTime - LoginStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ContentIntegrity" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ThreadNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40301</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TransMode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="CalledId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestMode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginOffsetTime" FileFlag="0" Formula="( LoginEndTime - LoginStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40302</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="OtherTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TransMode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="SendStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SendEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SendOffsetTime" FileFlag="0" Formula="( SendEndTime - SendStartTime ) / 1000" javaType="double"/>
+<Field FieldName="MsgNote" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestTimeStamp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="CalledId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestMode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OtherType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RecMsgNote" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="RecMsgTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="RecMsgResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="LoginOffsetTime" FileFlag="0" Formula="( LoginEndTime - LoginStartTime ) / 1000" javaType="double"/>
+<Field FieldName="OtherLoginType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RecMsgDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ReceiveOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40401</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Email" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectOffsetTime" FileFlag="0" Formula="( ConnectEndTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginSuccessTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LoginOffsetTime" FileFlag="0" Formula="( LoginSuccessTime - ConnectStartTime ) / 1000" javaType="long"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LogoutTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="UploadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UploadSpeed" FileFlag="0" Formula="1000 * UploadBytes / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="1000 * DownloadBytes / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="EmailSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SendSpeed" FileFlag="0" Formula="1000 * EmailSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="EmailFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="TestTimeStamp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CalledId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SmtpServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Pop3Server" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AuthResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SendResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40402</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Email" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectOffsetTime" FileFlag="0" Formula="( ConnectEndTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginSuccessTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LoginOffsetTime" FileFlag="0" Formula="( LoginSuccessTime - ConnectStartTime ) / 1000" javaType="long"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LogoutTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="UploadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UploadSpeed" FileFlag="0" Formula="1000 * UploadBytes / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="1000 * DownloadBytes / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="EmailSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SendSpeed" FileFlag="0" Formula="1000 * EmailSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="EmailFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="TestTimeStamp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CalledId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SmtpServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Pop3Server" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AuthResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SendResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40601</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="SubServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ExpServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="int(16,3)"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="UpLoadSpeed" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="URL" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IPList" FileFlag="0" Formula="" javaType=""/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40602</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="SubServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ExpServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="int(16,3)"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="AppName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientOpenTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="PlayStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="PlayEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="PlayOffsetTime" FileFlag="0" Formula="( PlayEndTime - PlayStartTime ) / 1000" javaType="int"/>
+<Field FieldName="CacheOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PlayTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="URL" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IPList" FileFlag="0" Formula="" javaType=""/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40603</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="AppPlatform" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="AppName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="URL" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AppStorePageDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="AppStorePageResult" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AppleID" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IDCertificateDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CertificateIP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="CertificateResult" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DNSDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectionDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="FileSize / DealOffsetTime" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ResourceUrl" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40700</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="GameName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="GameServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="GameServerPort" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>40800</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ResolveIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResolveResult" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginUser" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41000</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Server" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LastIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="HopCount" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TracertStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="TracertEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="TracertOffsetTime" FileFlag="0" Formula="( TracertEndTime - TracertStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProtocolType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DSCP" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41100</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AuthStartTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="RadiusEndTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="RadiusResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RadiusOffsettime" FileFlag="0" Formula="( RadiusEndTime - AuthStartTime ) / 1000" javaType="int(16,3)"/>
+<Field FieldName="AuthEndTime" FileFlag="0" Formula="" javaType="timestamp"/>
+<Field FieldName="AuthOffsetTime" FileFlag="0" Formula="( AuthEndTime - AuthStartTime ) / 1000" javaType="int(16,3)"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41300</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlPath" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectOffsetTime" FileFlag="0" Formula="( ConnectEndTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstFrameOffsetTime" FileFlag="0" Formula="( DealStartTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="UploadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UploadSpeed" FileFlag="0" Formula="1000 * UploadBytes / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="ActualSpeedContentLength" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ActualSpeedTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="ActualSpeedContentLength / ActualSpeedTime" javaType="double"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DataFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RefFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="VideoAvgSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VideoRequireSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="CacheNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheSize" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="TestPlayTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VideoPlayTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FlvUrl" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AvgOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OffsetTimeJitter" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RealPingNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSuccessNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41304</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlPath" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectOffsetTime" FileFlag="0" Formula="( ConnectEndTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstFrameOffsetTime" FileFlag="0" Formula="( DealStartTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="UploadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UploadSpeed" FileFlag="0" Formula="1000 * UploadBytes / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="ActualSpeedContentLength" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ActualSpeedTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="ActualSpeedContentLength / ActualSpeedTime" javaType="double"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DataFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RefFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="VideoAvgSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VideoRequireSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="CacheNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheSize" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="TestPlayTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VideoPlayTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FlvUrl" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SpeedLimit" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41305</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UserAgent" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ConnectOffsetTime" FileFlag="0" Formula="( ConnectEndTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstFrameOffsetTime" FileFlag="0" Formula="( DealStartTime - ConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ActualSpeedContentLength" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ActualSpeedTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="ActualSpeedContentLength / ActualSpeedTime" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="VideoAvgSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VideoRequireSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="CacheNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="CacheSize" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="TestPlayTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VideoPlayTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FlvUrl" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SpeedLimit" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TotalPartNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SuccPartNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TimelyPartNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41405</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="StepId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Apn" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ClientIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="( DealEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ForwardTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="FileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealSpeed" FileFlag="0" Formula="1000 * Url90PFileSize / ( Url90PDateTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DealTotalSpeed" FileFlag="0" Formula="1000 * FileSize / ( DealTotalEndTime - DealStartTime )" javaType="int"/>
+<Field FieldName="DataFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="QueryResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OrderResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="DialStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DialOffsetTime" FileFlag="0" Formula="( DialEndTime - DialStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalRxLev" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalSelectNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealTotalEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DealTotalOffsetTime" FileFlag="0" Formula="( DealTotalEndTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsQueryStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="DnsQueryOffsetTime" FileFlag="0" Formula="( DnsQueryEndTime - DnsQueryStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ConnectResultFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SetupConnectStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="SetupConnectOffsetTime" FileFlag="0" Formula="( SetupConnectEndTime - SetupConnectStartTime ) / 1000" javaType="double"/>
+<Field FieldName="ForwardStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ForwardEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="ForwardOffsetTime" FileFlag="0" Formula="( ForwardEndTime - ForwardStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstByteStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstByteOffsetTime" FileFlag="0" Formula="( FirstByteEndTime - FirstByteStartTime ) / 1000" javaType="double"/>
+<Field FieldName="FirstScreenStartTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstScreenEndTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="FirstScreenOffsetTime" FileFlag="0" Formula="( FirstScreenEndTime - FirstScreenStartTime ) / 1000" javaType="double"/>
+<Field FieldName="PageOffsetTime" FileFlag="0" Formula="( DealTotalEndTime - SetupConnectEndTime ) / 1000" javaType="double"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UrlType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginUser" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UrlName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DomainNameGroup" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResourcesFailedNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Url90PDateTime" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="Url90POffsettime" FileFlag="0" Formula="( Url90PDateTime - DealStartTime ) / 1000" javaType="double"/>
+<Field FieldName="WebResources" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResourcesNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="BrowserType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Url90PFileSize" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AvgOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="OffsetTimeJitter" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RealPingNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingSuccessNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41703</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TxRxFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TransferTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="TransferSize" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="MaxBandwidth" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DownBandwidth" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNumber" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="SagFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="TestLogFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="DSCP" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41704</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DnsServer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DnsQueryIp" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="DownJitter" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DownMaxBandwidth" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="TxRxFlag" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TransferTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="TransferSize" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="MaxBandwidth" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DownBandwidth" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="UdpLostRate" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="UdpJitterTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DSCP" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41705</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="StepId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalHost" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerHost" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ServerInfo" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="UpBandwidth" FileFlag="0" Formula="" javaType="float"/>
+<Field FieldName="DownBandwidth" FileFlag="0" Formula="" javaType="float"/>
+<Field FieldName="Ping" FileFlag="0" Formula="" javaType="float"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>41800</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="StepId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DhcpDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DhcpOfferDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DhcpRequestDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>42000</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="StepId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadOffsettime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UploadOffsettime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadMaxNetSpeed" FileFlag="0" Formula="" javaType="float"/>
+<Field FieldName="DownloadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="UploadMaxNetSpeed" FileFlag="0" Formula="" javaType="float"/>
+<Field FieldName="UploadBytes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalModuleCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>44101</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="VideoType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PageOpenDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ColumnLoadDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DetailLoadDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="PlayerOperDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VODFirstFrameDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="VODBufferNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="VODBuferDelayPer" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LiveFirstFrameDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LiveBuferNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LiveBuferDelayPer" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="NetCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DistrictId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TestRecord>
+<TypeList>
+<Type>44302</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="StepId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalChannelId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalTsId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalAttachCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalCurrentCityCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LocalOperatorCode" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="GameName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TestEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RetryTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LoginDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="LoginResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="LostConnNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DownloadSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="PeakDownloadSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="FPS" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TcpDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PeakTcpDelay" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="RetransmissionNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TcpDPNum" FileFlag="0" Formula="" javaType="long"/>
+<Field FieldName="CpuRatio" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="RAMOccupy" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="DataFlows" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DataFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="CapFile" FileFlag="1" Formula="" javaType="String"/>
+<Field FieldName="InDbTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TaskSendId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCodeType" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="GameTimes" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="DealOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="BuyPropDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="HomePageOffsetTime" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="SearchDelay" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="GLoadDataTraffic" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="GLoadSpeed" FileFlag="0" Formula="" javaType="double"/>
+<Field FieldName="FailureNote" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="AreaName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="SceneCode" FileFlag="0" Formula="" javaType="String"/>
+</FieldList>
+</TestRecord>
+<TraceRouter>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TaskId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ItemId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestTimeId" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Hop" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReturnTime1" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReturnTime2" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReturnTime3" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Ip" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IpName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="StartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="Server" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="LocalNet" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServiceType" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IspProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+</FieldList>
+</TraceRouter>
+<WebResourcesElement>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="ID" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="StartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="EndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="Url" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResolvTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConnectTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="WaitTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReceiveTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ConsumeTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Sent" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Length" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Method" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ContentType" FileFlag="0" Formula="" javaType="varhchar(40)"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Referer" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IPName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ISPProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="inTime" FileFlag="0" Formula="" javaType="Date"/>
+</FieldList>
+</WebResourcesElement>
+<WebResourcesPing>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="TestId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="PingStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="PingEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="RealPingNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="MaxOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="MinOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="AvgOffsetTime" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="PingFailNum" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IPName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ISPProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="inTime" FileFlag="0" Formula="" javaType="Date"/>
+</FieldList>
+</WebResourcesPing>
+<WebResourcesTrace>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TraceStartTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="TraceEndTime" FileFlag="0" Formula="" javaType="Date"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IPName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ISPProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="inTime" FileFlag="0" Formula="" javaType="Date"/>
+</FieldList>
+</WebResourcesTrace>
+<WebResourcesTraceHops>
+<TypeList>
+<Type>00</Type>
+</TypeList>
+<FieldList>
+<Field FieldName="Id" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="TestId" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ResourcesTraceID" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ResultCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="Hop" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReturnTime1" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReturnTime2" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ReturnTime3" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="IP" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="IPName" FileFlag="0" Formula="" javaType="String"/>
+<Field FieldName="ISPProvinceCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="ServerIspCode" FileFlag="0" Formula="" javaType="int"/>
+<Field FieldName="inTime" FileFlag="0" Formula="" javaType="Date"/>
+</FieldList>
+</WebResourcesTraceHops>
+</tablestruct>
